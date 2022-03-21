@@ -1,0 +1,38 @@
+html {
+    _overflow-y: scroll;
+    _overflow-x: auto;
+    height: 100%
+    
+}
+body
+{
+    background: rgba(0, 0, 0, 0.322);
+}
+h1
+{
+    font-weight: 400;
+    font-size: 100%;
+    color: white;
+    margin: 0px 0px 0px 240px;
+}
+#ibel
+{
+    width: 5%; 
+    height: 5%; 
+    margin: 0px 0px 0px 0px;
+    /* vertical-align: left; */
+}
+#sooho
+{
+    width: 3%; 
+    height: 3%; 
+    margin: 0px 0px 0px 0px;
+    /* vertical-align: right; */
+}
+#seize
+{
+    width: 10%; 
+    height: 10%; 
+    margin: 0px 0px 0px 0px;
+    /* vertical-align: right; */
+}

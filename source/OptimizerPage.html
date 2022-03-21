@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./OptimizerDesign.css"/>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./web3.min.js"></script>
+    <script src="./GasOptimizer.js"></script>
+    <script
+     type="text/javascript"
+     src="https://solc-bin.ethereum.org/bin/soljson-latest.js" ></script>
+
+<title>GasOptimizer</title>
+
+
+<h2>
+    <img src ="./Img/sooho.png"  id="sooho">
+    <img src ="./Img/IBEL.png" id="ibel">
+    <img src ="./Img/SEIZE.png"  id="seize">   
+<h2>
+
+
+<script>
+    var wrapper = require('solc/wrapper');
+    var solc = wrapper(window.Module);
+    code = fs.readFileSync('./test.sol').toString()
+    compiledCode = solc.compile(code);
+    alert("d");
+
+</script>
+
+
+</head>
+<body>
+    <h1>GasOptimizer Tool<h1></h1>
+<textarea id="inputbox" cols="50" rows="30"></textarea>
+<div><button id="optimize">Optimize</button></div>
+<div id="result"></div>
+</body>
